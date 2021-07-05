@@ -5,5 +5,5 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     int Score;
-    int InfectionMeter;
+    float InfectionMeter = 100f;
 }

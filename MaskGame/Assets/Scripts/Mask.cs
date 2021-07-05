@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaskBehavior : MonoBehaviour
+public class Mask : MonoBehaviour
 {
-    [SerializeField] GameObject MaskProjectile;
-
     void Update()
     {
         DragMask();
