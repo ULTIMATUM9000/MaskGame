@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MaskThrow : MonoBehaviour
 {
+    [SerializeField] GameObject MaskProjectile;
+
     void Update()
     {
         ShootMask();
@@ -18,7 +20,7 @@ public class MaskThrow : MonoBehaviour
 
             if(touch.phase == TouchPhase.Began)
 			{
-                
+                Debug.Log("Screen Touched");
 			}
 		}
 	}
