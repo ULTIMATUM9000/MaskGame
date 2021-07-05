@@ -16,7 +16,7 @@ public class PeoplePatrol : MonoBehaviour
     {
         targetPosition = GetRandomPosition();
 
-        gameBorder = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width,Screen.height,0));
+        gameBorder = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
 
         minX = -gameBorder.x / borderAllowance;
         maxX = gameBorder.x / borderAllowance;
@@ -26,8 +26,6 @@ public class PeoplePatrol : MonoBehaviour
 
     void Update()
     {
-
-
         if ((Vector2)transform.position != targetPosition)
 		{
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
@@ -47,6 +45,6 @@ public class PeoplePatrol : MonoBehaviour
 
 	private void OnDrawGizmosSelected()
 	{
-        Gizmos.DrawWireCube(Vector2.zero, new Vector2(Mathf.Abs(minX) + maxX, Mathf.Abs(minY) + maxY));
+        Gizmos.DrawWireCube(Vector2.zero, new Vector2(Mathf.Abs(minX)+maxX,Mathf.Abs(minY)+maxY));
 	}
 }

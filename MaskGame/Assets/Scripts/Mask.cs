@@ -49,11 +49,10 @@ public class Mask : MonoBehaviour
             }
             if(touch.phase == TouchPhase.Ended)
 			{
-				moveAllowed = false;
-
                 if(!isOverPeople)
 				{
                     transform.position = new Vector2(maskInventory.position.x, maskInventory.position.y);
+                    moveAllowed = false;
                 }
             }
 		}
@@ -69,12 +68,13 @@ public class Mask : MonoBehaviour
 
 	private void OnTriggerStay2D(Collider2D collision)
 	{
-        if (collision.CompareTag("People"))
+        if (collision.CompareTag("People") && moveAllowed)
         {
             if (touch.phase == TouchPhase.Ended)
             {
                 collision.GetComponent<People>().MaskGiven();
                 transform.position = new Vector2(maskInventory.position.x,maskInventory.position.y);
+                return;
             }
         }
     }

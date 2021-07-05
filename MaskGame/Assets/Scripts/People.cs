@@ -7,6 +7,6 @@ public class People : MonoBehaviour
     public void MaskGiven()
 	{
 		GameManager.Instance.score++;
-		Destroy(gameObject);
+		this.gameObject.SetActive(false);
 	}
 }
