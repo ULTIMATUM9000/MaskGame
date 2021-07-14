@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Mask : MonoBehaviour
 {
-    bool moveAllowed;
+    //bool moveAllowed;
 
-    bool isOverPeople;
+    //bool isOverPeople;
 
-    Collider2D col;
+    //Collider2D col;
 
     Touch touch;
 
-    [SerializeField] Transform maskInventory;
+    //[SerializeField] Transform maskInventory;
 
     private void Start()
     {
-        col = GetComponent<Collider2D>();
+        //col = GetComponent<Collider2D>();
     }
 
     void Update()
@@ -34,53 +34,46 @@ public class Mask : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 Collider2D touchedCollider = Physics2D.OverlapPoint(touchPosition);
-                if(col = touchedCollider)
+
+                if(touchedCollider.CompareTag("People"))
 				{
-                    moveAllowed = true;
+                    //damage them
 				}
             }
             if (touch.phase == TouchPhase.Moved)
             {
-                if(moveAllowed)
-				{
-                    transform.position = new Vector2(touchPosition.x, touchPosition.y);
 
-				}
             }
             if(touch.phase == TouchPhase.Ended)
 			{
-                if(!isOverPeople)
-				{
-                    transform.position = new Vector2(maskInventory.position.x, maskInventory.position.y);
-                    moveAllowed = false;
-                }
+
             }
 		}
     }
 
-	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		if(collision.CompareTag("People"))
-		{
-            isOverPeople = true;
-		}
-	}
+	//private void OnTriggerEnter2D(Collider2D collision)
+	//{
+	//	if(collision.CompareTag("People"))
+	//	{
+            
+	//	}
+	//}
 
-	private void OnTriggerStay2D(Collider2D collision)
-	{
-        if (collision.CompareTag("People") && moveAllowed)
-        {
-            if (touch.phase == TouchPhase.Ended)
-            {
-                collision.GetComponent<People>().MaskGiven();
-                transform.position = new Vector2(maskInventory.position.x,maskInventory.position.y);
-                return;
-            }
-        }
-    }
+	//private void OnTriggerStay2D(Collider2D collision)
+	//{
+ //       if (collision.CompareTag("People"))
+ //       {
+ //           if (touch.phase == TouchPhase.Ended)
+ //           {
+ //               collision.GetComponent<People>().MaskGiven();
+ //               transform.position = new Vector2(maskInventory.position.x,maskInventory.position.y);
+ //               return;
+ //           }
+ //       }
+ //   }
 
-	private void OnTriggerExit2D(Collider2D collision)
-	{
-        isOverPeople = false;
-	}
+	//private void OnTriggerExit2D(Collider2D collision)
+	//{
+
+	//}
 }
