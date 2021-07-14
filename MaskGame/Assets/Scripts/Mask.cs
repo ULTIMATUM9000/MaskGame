@@ -37,7 +37,7 @@ public class Mask : MonoBehaviour
 
                 if(touchedCollider.CompareTag("People"))
 				{
-                    //damage them
+                    touchedCollider.GetComponent<People>().TakeMask();
 				}
             }
             if (touch.phase == TouchPhase.Moved)

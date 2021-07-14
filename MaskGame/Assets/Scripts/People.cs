@@ -4,9 +4,26 @@ using UnityEngine;
 
 public class People : MonoBehaviour
 {
-    public void MaskGiven()
+	int numOfMaximumTaps;
+
+	int numOfCurrentTaps;
+
+	private void OnEnable()
 	{
-		GameManager.Instance.score++;
-		this.gameObject.SetActive(false);
+		numOfMaximumTaps = Random.Range(1, 4);
+		numOfCurrentTaps = 0;
+	}
+
+	public void TakeMask()
+	{
+		if(numOfCurrentTaps < numOfMaximumTaps)
+		{
+			numOfCurrentTaps++;
+		}
+		if(numOfCurrentTaps == numOfMaximumTaps)
+		{
+			GameManager.Instance.score++;
+			this.gameObject.SetActive(false);
+		}
 	}
 }
