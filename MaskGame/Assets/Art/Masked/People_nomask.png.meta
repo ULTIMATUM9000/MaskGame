@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: d2c26d4169a1eae4fa30970086dd3d30
+guid: 06fc16e9406beb244b3df178c3519556
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5352549287915143545
-    second: People_wmask_0
+      213: -3274743508794286164
+    second: People_nomask_0
   - first:
-      213: 5698862597353818794
-    second: People_wmask_1
+      213: -1258187371069184025
+    second: People_nomask_1
   - first:
-      213: -3308480471177264964
-    second: People_wmask_2
+      213: 7547363535209471870
+    second: People_nomask_2
   - first:
-      213: 332789200964487119
-    second: People_wmask_3
+      213: -3551856433837717807
+    second: People_nomask_3
   - first:
-      213: -7781048200529316074
-    second: People_wmask_4
+      213: 5690309257388686048
+    second: People_nomask_4
   - first:
-      213: -9084134059031864942
-    second: People_wmask_5
+      213: -8177982488557678262
+    second: People_nomask_5
   - first:
-      213: -5867732418369564490
-    second: People_wmask_6
+      213: 1145046154879134768
+    second: People_nomask_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: People_wmask_0
+      name: People_nomask_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,18 +138,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e3c0b18cce7b5b0800000000000000
-      internalID: -5352549287915143545
+      spriteID: cafdccb0126cd82d0800000000000000
+      internalID: -3274743508794286164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_1
+      name: People_nomask_1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 269
+        x: 156
+        y: 260
         width: 74
         height: 235
       alignment: 0
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaac803a65d661f40800000000000000
-      internalID: 5698862597353818794
+      spriteID: 7e7e98e80450a8ee0800000000000000
+      internalID: -1258187371069184025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_2
+      name: People_nomask_2
       rect:
         serializedVersion: 2
         x: 257
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb089216a8ae512d0800000000000000
-      internalID: -3308480471177264964
+      spriteID: e7f95eac52f9db860800000000000000
+      internalID: 7547363535209471870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_3
+      name: People_nomask_3
       rect:
         serializedVersion: 2
         x: 456
@@ -201,14 +201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7039cd30e4e9400800000000000000
-      internalID: 332789200964487119
+      spriteID: 1d6cae7546545bec0800000000000000
+      internalID: -3551856433837717807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_4
+      name: People_nomask_4
       rect:
         serializedVersion: 2
         x: 584
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617f14b23e9240490800000000000000
-      internalID: -7781048200529316074
+      spriteID: 0eaf4ccfe1a08fe40800000000000000
+      internalID: 5690309257388686048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_5
+      name: People_nomask_5
       rect:
         serializedVersion: 2
         x: 34
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299d06ff33caee180800000000000000
-      internalID: -9084134059031864942
+      spriteID: a4197266148f18e80800000000000000
+      internalID: -8177982488557678262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_wmask_6
+      name: People_nomask_6
       rect:
         serializedVersion: 2
         x: 492
@@ -264,8 +264,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0d90e3470a19ea0800000000000000
-      internalID: -5867732418369564490
+      spriteID: 03c6ff0496504ef00800000000000000
+      internalID: 1145046154879134768
       vertices: []
       indices: 
       edges: []
