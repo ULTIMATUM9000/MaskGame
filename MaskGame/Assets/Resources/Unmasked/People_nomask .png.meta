@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 5bbedd8eb56e1fa49ac223644e67c49e
+guid: 65afe72a44189e844891664edbb2cd44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5219150749658053663
-    second: People_nomask 1_0
+      213: 4976578509572397038
+    second: People_nomask _0
   - first:
-      213: 171142059546999876
-    second: People_nomask 1_1
+      213: -589405302660485973
+    second: People_nomask _1
   - first:
-      213: 6277616567732598964
-    second: People_nomask 1_2
+      213: 5568420970756657077
+    second: People_nomask _2
   - first:
-      213: -4310668290048615587
-    second: People_nomask 1_3
+      213: -6708431379355323759
+    second: People_nomask _3
   - first:
-      213: 3916541355869914256
-    second: People_nomask 1_4
+      213: 2156972078020548829
+    second: People_nomask _4
   - first:
-      213: -9062564416708849629
-    second: People_nomask 1_5
+      213: -5260041970397832532
+    second: People_nomask _5
   - first:
-      213: 6385547670224007294
-    second: People_nomask 1_6
+      213: -705953438652838974
+    second: People_nomask _6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: People_nomask 1_0
+      name: People_nomask _0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e30b61ab0ad197b0800000000000000
-      internalID: -5219150749658053663
+      spriteID: ee7d7e399cb501540800000000000000
+      internalID: 4976578509572397038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask 1_1
+      name: People_nomask _1
       rect:
         serializedVersion: 2
-        x: 167
-        y: 269
-        width: 74
-        height: 235
+        x: 145
+        y: 250
+        width: 113
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,35 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44c7d61ebc4006200800000000000000
-      internalID: 171142059546999876
+      spriteID: baca032000302d7f0800000000000000
+      internalID: -589405302660485973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask 1_2
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 241
-        width: 162
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b8fec312039e1750800000000000000
-      internalID: 6277616567732598964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: People_nomask 1_3
+      name: People_nomask _2
       rect:
         serializedVersion: 2
         x: 456
@@ -201,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5b9c13770e6d24c0800000000000000
-      internalID: -4310668290048615587
+      spriteID: 5bf49c1ce51074d40800000000000000
+      internalID: 5568420970756657077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask 1_4
+      name: People_nomask _3
       rect:
         serializedVersion: 2
         x: 584
@@ -222,14 +201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 094c0c8cc995a5630800000000000000
-      internalID: 3916541355869914256
+      spriteID: 1923179043dd6e2a0800000000000000
+      internalID: -6708431379355323759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask 1_5
+      name: People_nomask _4
       rect:
         serializedVersion: 2
         x: 34
@@ -243,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32059f3bdad4b3280800000000000000
-      internalID: -9062564416708849629
+      spriteID: dd8d9d44daa1fed10800000000000000
+      internalID: 2156972078020548829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask 1_6
+      name: People_nomask _5
       rect:
         serializedVersion: 2
         x: 492
@@ -264,8 +243,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70760426c50e9850800000000000000
-      internalID: 6385547670224007294
+      spriteID: caa9ac262b39007b0800000000000000
+      internalID: -5260041970397832532
       vertices: []
       indices: 
       edges: []

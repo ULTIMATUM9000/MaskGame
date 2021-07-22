@@ -149,9 +149,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 156
-        y: 260
-        width: 74
-        height: 235
+        y: 250
+        width: 102
+        height: 245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: People_nomask_2
       rect:
         serializedVersion: 2
-        x: 257
-        y: 241
-        width: 162
-        height: 262
+        x: 456
+        y: 254
+        width: 108
+        height: 251
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: People_nomask_3
       rect:
         serializedVersion: 2
-        x: 456
-        y: 254
-        width: 108
-        height: 251
+        x: 584
+        y: 233
+        width: 103
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: People_nomask_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 233
-        width: 103
-        height: 265
+        x: 34
+        y: 0
+        width: 98
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,27 +232,6 @@ TextureImporter:
       name: People_nomask_5
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 98
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4197266148f18e80800000000000000
-      internalID: -8177982488557678262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: People_nomask_6
-      rect:
-        serializedVersion: 2
         x: 492
         y: 12
         width: 115
@@ -264,8 +243,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c6ff0496504ef00800000000000000
-      internalID: 1145046154879134768
+      spriteID: a4197266148f18e80800000000000000
+      internalID: -8177982488557678262
       vertices: []
       indices: 
       edges: []
