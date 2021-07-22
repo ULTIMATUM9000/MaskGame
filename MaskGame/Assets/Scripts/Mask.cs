@@ -35,18 +35,13 @@ public class Mask : MonoBehaviour
             {
                 Collider2D touchedCollider = Physics2D.OverlapPoint(touchPosition);
 
-                if(touchedCollider.CompareTag("People"))
+                if(touchedCollider != null)
 				{
-                    touchedCollider.GetComponent<People>().TakeMask();
-				}
-            }
-            if (touch.phase == TouchPhase.Moved)
-            {
-
-            }
-            if(touch.phase == TouchPhase.Ended)
-			{
-
+                    if (touchedCollider.CompareTag("People"))
+                    {
+                        touchedCollider.GetComponent<People>().TakeMask();
+                    }
+                }
             }
 		}
     }

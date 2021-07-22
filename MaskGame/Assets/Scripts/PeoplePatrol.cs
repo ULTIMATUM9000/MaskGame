@@ -34,6 +34,15 @@ public class PeoplePatrol : MonoBehaviour
 		{
             targetPosition = GetRandomPosition();
 		}
+
+        if (transform.position.x > targetPosition.x)//Left
+        {
+            transform.localScale = new Vector2(-1, 1);
+        }
+        if (transform.position.x < targetPosition.x)//Right
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
     }
 
     Vector2 GetRandomPosition()
