@@ -15,7 +15,7 @@ public class People : MonoBehaviour
 
 	int numOfCurrentTaps;
 
-	bool hasMask = false;
+	public bool hasMask;
 
 	private void Awake()
 	{
@@ -28,6 +28,7 @@ public class People : MonoBehaviour
 	{
 		numOfMaximumTaps = Random.Range(1, 4);
 		numOfCurrentTaps = 0;
+		hasMask = false;
 		spriteIndex = Random.Range(0, unmaskedSprite.Length - 1);
 		spriteRenderer.sprite = unmaskedSprite[spriteIndex];
 	}
