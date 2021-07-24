@@ -5,14 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	private void Start()
+	{
+		AudioManager.instance.Play("MainMenuBGM");
+	}
+	public void LoadScene(string sceneName)
     {
-        
-    }
-
-    public void LoadScene(string sceneName)
-    {
+		CanvasManager.instance.SwitchCanvas(CanvasType.GameUI);
+		GameManager.instance.InitializeGame();
+        AudioManager.instance.Stop("MainMenuBGM");
+        AudioManager.instance.Play("GameBGM");
         SceneManager.LoadScene(sceneName);
     }
 }

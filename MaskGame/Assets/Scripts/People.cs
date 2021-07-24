@@ -41,7 +41,8 @@ public class People : MonoBehaviour
 		}
 		if (numOfCurrentTaps == numOfMaximumTaps && !hasMask)
 		{
-			GameManager.Instance.score++;
+			AudioManager.instance.Play("MaskSFX");
+			GameManager.instance.score++;
 			spriteRenderer.sprite = maskedSprite[spriteIndex];
 			hasMask = true;
 			Invoke("SetActiveFalseObject", 3f);

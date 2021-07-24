@@ -2,11 +2,13 @@
 using System;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : Singleton<AudioManager>
 {
 	public Audio[] sounds;
-	void Awake()
+
+	new void Awake()
 	{
+		base.Awake();
 		foreach (Audio s in sounds)
 		{
 			s.source = gameObject.AddComponent<AudioSource>();
@@ -14,6 +16,7 @@ public class AudioManager : MonoBehaviour
 
 			s.source.volume = s.volume;
 			s.source.pitch = s.pitch;
+			s.source.loop = s.loop;
 		}
 	}
 
@@ -21,6 +24,20 @@ public class AudioManager : MonoBehaviour
 	{
 		Audio s = Array.Find(sounds, sound => sound.name == name);
 		s.source.Play();
+	}
+
+	public void Stop(string name)
+	{
+		Audio s = Array.Find(sounds, sound => sound.name == name);
+
+		if (!s.source.enabled)
+		{
+			return;
+		}
+		else
+		{
+			s.source.Stop();
+		}
 	}
 }
 

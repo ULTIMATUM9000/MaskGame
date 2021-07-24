@@ -9,6 +9,8 @@ public class GameManager : Singleton<GameManager>
 {
     [SerializeField] TextMeshProUGUI scoreText;
 
+    [SerializeField] TextMeshProUGUI gameOverScore;
+
     [SerializeField] GameObject SpawnedObjects;
 
     public Slider InfectionBar;
@@ -17,17 +19,35 @@ public class GameManager : Singleton<GameManager>
 
     public int score;
 
+    //public bool gameStart = false;
+
+    //public bool gameOver = false;
+
     [SerializeField] float damage;
     float InfectionMeter = 0f;
 	float MaxInfectionMeter = 100f;
 
 	private void Update()
 	{
-        CalculateHasNoMask();
-        IncreaseInfection();
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+		{
+            SpawnedObjects = GameObject.Find("SpawnManager");
+            CalculateHasNoMask();
+            IncreaseInfection();
+            scoreText.text = "SCORE: " + score.ToString();
+        }
 
-		scoreText.text = "SCORE: " + score.ToString();
+        if(SceneManager.GetActiveScene().buildIndex == 2)
+		{
+            gameOverScore.text = "SCORE: " + score.ToString();
+        }            
     }
+
+    public void InitializeGame()
+	{
+        score = 0;
+        InfectionMeter = 0f;
+	}
 
     void CalculateHasNoMask()
 	{
@@ -44,12 +64,21 @@ public class GameManager : Singleton<GameManager>
 
     public void IncreaseInfection()
     {
-        InfectionMeter += (damage + (0.01f * peopleNoMask)) * Time.deltaTime;
-
+        if(InfectionMeter < MaxInfectionMeter)
+		{
+            InfectionMeter += (damage + (0.01f * peopleNoMask)) * Time.deltaTime;
+        }
+        
         if (InfectionBar != null)
             InfectionBar.value = InfectionMeter;
 
         if (InfectionMeter >= MaxInfectionMeter)
+		{
+            CanvasManager.instance.SwitchCanvas(CanvasType.GameOver);
+            AudioManager.instance.Stop("GameBGM");
+            AudioManager.instance.Play("GameOverSFX");
             SceneManager.LoadScene("GameOver");
+        }
+            
     }
 }

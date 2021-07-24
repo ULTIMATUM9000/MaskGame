@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PeopleSpawn : Singleton<PeopleSpawn>
+public class PeopleSpawn : MonoBehaviour
 {
     [SerializeField]
     private float minSpawnInterval = 1.5f;
@@ -49,7 +49,7 @@ public class PeopleSpawn : Singleton<PeopleSpawn>
 
     private void SpawnEnemy()
     {
-        GameObject enemyObject = ObjectPoolManager.Instance.GetPooledObject("People");
+        GameObject enemyObject = ObjectPoolManager.instance.GetPooledObject("People");
         if (enemyObject != null)
         {
             Vector3 spawnPos = Vector3.zero;

@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPoolManager : Singleton<ObjectPoolManager>
+public class ObjectPoolManager : MonoBehaviour
 {
+    public static ObjectPoolManager instance;
+
     public List<ObjectPoolItem> itemsToPool;
     [SerializeField]
     private List<GameObject> pooledObjects;
@@ -16,6 +18,8 @@ public class ObjectPoolManager : Singleton<ObjectPoolManager>
 
     private void Start()
     {
+        instance = this;
+
         pooledObjects = new List<GameObject>();
         //Traverse through each objectpoolitem in the list
         foreach (ObjectPoolItem item in itemsToPool)
