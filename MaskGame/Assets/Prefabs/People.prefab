@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2e3ad1627f27a4caa0c00782025247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numOfMaximumTaps: 1
   hasMask: 1
 --- !u!114 &3624232010500803521
 MonoBehaviour:

@@ -11,7 +11,7 @@ public class People : MonoBehaviour
 
 	int spriteIndex;
 
-	int numOfMaximumTaps;
+	[SerializeField] int numOfMaximumTaps;
 
 	int numOfCurrentTaps;
 
@@ -26,7 +26,6 @@ public class People : MonoBehaviour
 
 	private void OnEnable()
 	{
-		numOfMaximumTaps = Random.Range(1, 4);
 		numOfCurrentTaps = 0;
 		hasMask = false;
 		spriteIndex = Random.Range(0, unmaskedSprite.Length - 1);
