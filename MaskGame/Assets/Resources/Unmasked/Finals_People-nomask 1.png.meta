@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: bc8a55a2b3223574085eb5174ba502ff
+guid: fd5f01fb4c93f0b4e9329c8c13c687f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3274743508794286164
-    second: People_nomask_0
+      213: 890936033927352149
+    second: Finals_People-nomask 1_0
   - first:
-      213: -1258187371069184025
-    second: People_nomask_1
+      213: -4316521996290918260
+    second: Finals_People-nomask 1_1
   - first:
-      213: 7547363535209471870
-    second: People_nomask_2
+      213: 8449885562414615988
+    second: Finals_People-nomask 1_3
   - first:
-      213: -3551856433837717807
-    second: People_nomask_3
+      213: 8775162703714958902
+    second: Finals_People-nomask 1_4
   - first:
-      213: 5690309257388686048
-    second: People_nomask_4
+      213: -8282658251712063803
+    second: Finals_People-nomask 1_5
   - first:
-      213: -8177982488557678262
-    second: People_nomask_5
+      213: 7581740918998008381
+    second: Finals_People-nomask 1_6
   - first:
-      213: 1145046154879134768
-    second: People_nomask_6
+      213: 649821397840499034
+    second: Finals_People-nomask 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,127 +124,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: People_nomask_0
+      name: Finals_People-nomask 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 265
-        width: 132
-        height: 227
+        x: 1
+        y: 741
+        width: 367
+        height: 635
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cafdccb0126cd82d0800000000000000
-      internalID: -3274743508794286164
+      spriteID: 55fc5db3a9d3d5c00800000000000000
+      internalID: 890936033927352149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask_1
+      name: Finals_People-nomask 1_1
       rect:
         serializedVersion: 2
-        x: 156
-        y: 250
-        width: 102
-        height: 245
+        x: 465
+        y: 750
+        width: 207
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7e98e80450a8ee0800000000000000
-      internalID: -1258187371069184025
+      spriteID: c887be14d12a814c0800000000000000
+      internalID: -4316521996290918260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask_2
+      name: Finals_People-nomask 1_3
       rect:
         serializedVersion: 2
-        x: 456
-        y: 254
-        width: 108
-        height: 251
+        x: 1279
+        y: 711
+        width: 296
+        height: 699
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f95eac52f9db860800000000000000
-      internalID: 7547363535209471870
+      spriteID: 4bdcc6c4626044570800000000000000
+      internalID: 8449885562414615988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask_3
+      name: Finals_People-nomask 1_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 233
-        width: 103
-        height: 265
+        x: 1633
+        y: 650
+        width: 287
+        height: 743
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cae7546545bec0800000000000000
-      internalID: -3551856433837717807
+      spriteID: 63ebf297cf3a7c970800000000000000
+      internalID: 8775162703714958902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask_4
+      name: Finals_People-nomask 1_6
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 98
-        height: 201
+        x: 96
+        y: 1
+        width: 274
+        height: 560
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eaf4ccfe1a08fe40800000000000000
-      internalID: 5690309257388686048
+      spriteID: d328bef2231c73960800000000000000
+      internalID: 7581740918998008381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask_5
+      name: Finals_People-nomask 1_7
       rect:
         serializedVersion: 2
-        x: 492
-        y: 12
-        width: 115
-        height: 213
+        x: 1374
+        y: 32
+        width: 321
+        height: 595
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4197266148f18e80800000000000000
-      internalID: -8177982488557678262
+      spriteID: a511bb15e11a40900800000000000000
+      internalID: 649821397840499034
       vertices: []
       indices: 
       edges: []

@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 86b20e49d06c9bf4eb1d23bc251a930f
+guid: 5cf083222fa909242a60db6f81f9337d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4976578509572397038
-    second: People_nomask _0
+      213: -3124498051646838966
+    second: Finals_People-withmask 1_0
   - first:
-      213: -589405302660485973
-    second: People_nomask _1
+      213: 7925359879209425161
+    second: Finals_People-withmask 1_1
   - first:
-      213: 5568420970756657077
-    second: People_nomask _2
+      213: 2409179944272813902
+    second: Finals_People-withmask 1_3
   - first:
-      213: -6708431379355323759
-    second: People_nomask _3
+      213: 836740162212491240
+    second: Finals_People-withmask 1_4
   - first:
-      213: 2156972078020548829
-    second: People_nomask _4
+      213: 1028712487685378867
+    second: Finals_People-withmask 1_5
   - first:
-      213: -5260041970397832532
-    second: People_nomask _5
+      213: -2366977926794494096
+    second: Finals_People-withmask 1_6
   - first:
-      213: -705953438652838974
-    second: People_nomask _6
+      213: 2837576586866774685
+    second: Finals_People-withmask 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,127 +124,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: People_nomask _0
+      name: Finals_People-withmask 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 265
-        width: 132
-        height: 227
+        x: 1
+        y: 741
+        width: 367
+        height: 635
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee7d7e399cb501540800000000000000
-      internalID: 4976578509572397038
+      spriteID: a47a03a839d83a4d0800000000000000
+      internalID: -3124498051646838966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask _1
+      name: Finals_People-withmask 1_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 250
-        width: 113
-        height: 248
+        x: 465
+        y: 750
+        width: 207
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baca032000302d7f0800000000000000
-      internalID: -589405302660485973
+      spriteID: 909196dd1d88cfd60800000000000000
+      internalID: 7925359879209425161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask _2
+      name: Finals_People-withmask 1_3
       rect:
         serializedVersion: 2
-        x: 456
-        y: 254
-        width: 108
-        height: 251
+        x: 1276
+        y: 711
+        width: 299
+        height: 699
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf49c1ce51074d40800000000000000
-      internalID: 5568420970756657077
+      spriteID: e4f506a15602f6120800000000000000
+      internalID: 2409179944272813902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask _3
+      name: Finals_People-withmask 1_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 233
-        width: 103
-        height: 265
+        x: 1633
+        y: 650
+        width: 287
+        height: 743
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1923179043dd6e2a0800000000000000
-      internalID: -6708431379355323759
+      spriteID: 8ef6af98eb2bc9b00800000000000000
+      internalID: 836740162212491240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask _4
+      name: Finals_People-withmask 1_6
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 98
-        height: 201
+        x: 96
+        y: 1
+        width: 274
+        height: 560
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd8d9d44daa1fed10800000000000000
-      internalID: 2156972078020548829
+      spriteID: 07f393acd1ec62fd0800000000000000
+      internalID: -2366977926794494096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: People_nomask _5
+      name: Finals_People-withmask 1_7
       rect:
         serializedVersion: 2
-        x: 492
-        y: 12
-        width: 115
-        height: 213
+        x: 1374
+        y: 32
+        width: 321
+        height: 595
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa9ac262b39007b0800000000000000
-      internalID: -5260041970397832532
+      spriteID: d92d8232fd8116720800000000000000
+      internalID: 2837576586866774685
       vertices: []
       indices: 
       edges: []
