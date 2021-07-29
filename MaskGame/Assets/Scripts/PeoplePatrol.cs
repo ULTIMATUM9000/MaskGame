@@ -20,8 +20,8 @@ public class PeoplePatrol : MonoBehaviour
 
         minX = -gameBorder.x / borderAllowance;
         maxX = gameBorder.x / borderAllowance;
-        minY = -gameBorder.y / borderAllowance;
-        maxY = gameBorder.y / borderAllowance;
+        /*minY = -gameBorder.y / borderAllowance;                                     
+        maxY = gameBorder.y / borderAllowance;*/
     }
 
     void Update()

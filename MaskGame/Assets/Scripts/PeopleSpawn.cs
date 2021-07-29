@@ -34,8 +34,8 @@ public class PeopleSpawn : MonoBehaviour
 
         minX = -gameBorder.x ;
         maxX = gameBorder.x;
-        minY = -gameBorder.y;
-        maxY = gameBorder.y;
+        /*minY = -gameBorder.y;
+        maxY = gameBorder.y;*/
     }
 
     IEnumerator SpawnCoroutine()
