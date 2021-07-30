@@ -378,7 +378,7 @@ MonoBehaviour:
   itemsToPool:
   - id: People
     objectToPool: {fileID: 3624232010500803579, guid: a553cf501e2594241ae573b851368dd7, type: 3}
-    parent: {fileID: 861120611}
+    parent: {fileID: 0}
     amountToPool: 10
     shouldExpand: 1
   pooledObjects: []
